@@ -1,15 +1,6 @@
 USE [master]
 GO
 
-/****** Object:  StoredProcedure [dbo].[DBAChecklist]    Script Date: 08/04/2014 17:50:22 ******/
-SET ANSI_NULLS ON
-GO
-
-SET QUOTED_IDENTIFIER ON
-GO
-
-
-
 CREATE PROC [dbo].[DBAChecklist]
 	@AgentJobsNumDays int=24,
 	@IncludedDatabases varchar(4000)=NULL, 
