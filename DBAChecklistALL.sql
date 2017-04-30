@@ -780,6 +780,7 @@ GO
 CREATE PROC [dbo].[DBAChecklist_JobStats]
 	@NumDays int,
 	@HTML nvarchar(max) out
+AS
 
 SET ANSI_WARNINGS OFF
 DECLARE @FromDate char(8)
